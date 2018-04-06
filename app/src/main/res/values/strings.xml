@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Reporting System</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Full name</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_register">Register</string>
+    <string name="btn_link_to_register">Not a member? Register now.</string>
+    <string name="btn_link_to_login">Already registered? Login</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">Logout</string>
+    <string name="name">Full Name</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="settings">Logout</string>
+    <string name="add_a_note">Add a note</string>
+    <string name="save">Save</string>
+
+    <string-array name="array_user_level">
+        <item>HQ Level</item>
+        <item>Station Level</item>
+    </string-array>
+
+</resources>

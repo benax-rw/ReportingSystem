@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.YellowPagesRwanda.ReportingSystem.StationLevelActivity">
+
+    <LinearLayout
+        android:layout_width="331dp"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/welcomeMsg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Welcome"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/noteXML"
+            android:layout_width="match_parent"
+            android:layout_height="133dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="10dp"
+            android:ems="10"
+            android:background="#eee"
+            android:hint="@string/add_a_note"
+            android:inputType="textMultiLine"
+            android:paddingStart="10dp" />
+
+        <Button
+            android:id="@+id/saveBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/save" />
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
